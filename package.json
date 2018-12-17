@@ -1,0 +1,21 @@
+{
+  "name": "google-sign-in",
+  "version": "1.0.0",
+  "description": "Una pequeña app para probar Sign-In de Google",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "OAuth",
+    "2.0",
+    "Google-Sign-In"
+  ],
+  "author": "Sergui Morejon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "google-auth-library": "^2.0.2"
+  }
+}
